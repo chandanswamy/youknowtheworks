@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+* {
+    margin: 0px;
+    font-family: Roboto;
+    color: #2a2a66;
+}
+
+.interests-icons-container {
+    padding-bottom: 12px;
+    border-bottom: 4px solid #3d3569;
+}
+
+.interests-icon-container {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #2a2a63;
+}
+
+.interests-icons-container p {
+    margin-top: 4px;
+    font-size: 10px;
+}
+
+.desktop {
+    font-size: 28px;
+    color: #ffa1a9;
+}
+
+.resume-cover {
+    min-height: 100vh;
+    background-color: #ffa1a9;
+}
+
+.row-div {
+    height: 200px;
+}
+
+.icon-container {
+    height: 70px;
+    width: 70px;
+    border: 3px solid #3d3569;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.showcase-icon {
+    font-size: 42px;
+    font-weight: 500;
+    color: #2a2a63;
+}
+
+.showcase-icon-two {
+    font-size: 42px;
+    color: #2a2a63;
+}
+
+.icon-title {
+    font-size: 16px;
+    text-align: center;
+}
+
+.profile-name {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.profile-tag {
+    font-size: 10px;
+    font-weight: 200;
+}
+
+.profile-name-container {
+    border-bottom: 4px solid #3d3569;
+    border-right: 2px solid #3d3569;
+    height: 150px;
+}
+
+.profile-details-container {
+    border-bottom: 4px solid #3d3569;
+    border-left: 2px solid #3d3569;
+    height: 150px;
+}
+
+.profile-desc {
+    font-size: 9px;
+}
+
+.work {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 22px;
+}
+
+.work-div {
+    border-bottom: 4px solid #3d3569;
+}
+
+.work-details-div {
+    width: 80%;
+    margin-left: auto;
+}
+
+.date {
+    font-size: 10px;
+}
+
+.work-position {
+    font-size: 10px;
+    font-weight: 600;
+    margin: 0px;
+}
+
+.work-desc {
+    font-size: 10px;
+    margin: 0px;
+    margin-left: auto;
+}
+
+.skill-set-name {
+    font-size: 10px;
+    margin: 0px;
+}
+
+.skill-set {
+    margin-bottom: 8px;
+}
+
+.skill-set-rating i {
+    font-size: 8px;
+    color: #2a2a63;
+}
+
+.skill-name-container {
+    border-bottom: 4px solid #3d3569;
+    border-right: 2px solid #3d3569;
+    height: 180px;
+}
+
+.skill-details-container {
+    border-bottom: 4px solid #3d3569;
+    border-left: 2px solid #3d3569;
+    height: 180px;
+}
+
+
+@media screen and (min-width: 500px) {
+    .profile-name {
+        font-size: 32px;
+        font-weight: 600;
+    }
+
+    .profile-tag {
+        font-size: 12px;
+        font-weight: 200;
+    }
+
+    .profile-desc {
+        font-size: 12px;
+    }
+
+    .date {
+        font-size: 14px;
+    }
+
+    .work-position {
+        font-size: 16px;
+        font-weight: 600;
+        margin: 0px;
+    }
+
+    .work-desc {
+        font-size: 12px;
+        margin: 0px;
+    }
+
+    .skill-set-name {
+        font-size: 12px;
+    }
+
+    .skill-set-rating i {
+        font-size: 12px;
+        color: #2a2a63;
+    }
+
+    .interests-icon-container {
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;
+        text-align: center;
+        background-color: #2a2a63;
+    }
+
+    .interests-icons-container p {
+        margin-top: 4px;
+        font-size: 10px;
+    }
+
+    .desktop {
+        font-size: 38px;
+        color: #ffa1a9;
+    }
+}
